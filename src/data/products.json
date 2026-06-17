@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "name": "Chocolate Truffle",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/chocotruffle.jpg",
+    "description": "Rich, dense chocolate layers coated in a smooth chocolate ganache."
+  },
+  {
+    "id": 2,
+    "name": "Red Velvet",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/redvelvet.jpg",
+    "description": "Soft red velvet sponge layered with smooth cream cheese frosting."
+  },
+  {
+    "id": 3,
+    "name": "Black Forest",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/blackforest.jpg",
+    "description": "Chocolate sponge layered with fresh cream, cherries, and chocolate shavings."
+  },
+  {
+    "id": 4,
+    "name": "Pineapple",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/pineapple.jpg",
+    "description": "Light vanilla sponge filled with pineapple cream and fresh pineapple pieces."
+  },
+  {
+    "id": 5,
+    "name": "Croissant",
+    "category": "pastry",
+    "price": 85,
+    "tag": "Flaky",
+    "image": "/images/pastry1.jpg",
+    "description": "Classic butter-laminated dough with a crisp exterior and soft honeycomb centre."
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Éclair",
+    "category": "pastry",
+    "price": 90,
+    "tag": "Choux",
+    "image": "/images/pastry2.jpg",
+    "description": "Delicate choux pastry filled with vanilla cream and topped with chocolate."
+  },
+  {
+    "id": 7,
+    "name": "Strawberry Tart",
+    "category": "pastry",
+    "price": 100,
+    "tag": "Seasonal",
+    "image": "/images/pastry3.jpg",
+    "description": "Sweet pastry crust filled with cream and topped with fresh strawberries."
+  },
+  {
+    "id": 8,
+    "name": "Cream Puff",
+    "category": "pastry",
+    "price": 100,
+    "tag": "Choux",
+    "image": "/images/pastry4.jpg",
+    "description": "Light choux pastry filled with freshly whipped cream."
+  },
+  {
+    "id": 9,
+    "name": "Chocolate Truffle",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/cake1.jpg",
+    "description": "Rich, dense chocolate layers coated in a smooth chocolate ganache.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 10,
+    "name": "Red Velvet",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/cake2.jpg",
+    "description": "Soft red velvet sponge layered with smooth cream cheese frosting.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 11,
+    "name": "Black Forest",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/cake8.jpg",
+    "description": "Chocolate sponge layered with fresh cream, cherries, and chocolate shavings.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 12,
+    "name": "Pineapple",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/cake4.jpg",
+    "description": "Light vanilla sponge filled with pineapple cream and fresh pineapple pieces.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 13,
+    "name": "Red Velvet Cake",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/cake5.jpg",
+    "description": "Classic red velvet cake with soft sponge and creamy frosting.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 14,
+    "name": "Vanilla Fruit Cake",
+    "category": "cake",
+    "price": 650,
+    "image": "/images/cake6.jpg",
+    "description": "Vanilla sponge layered with cream and decorated with fresh seasonal fruits.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 15,
+    "name": "Cherry Chocolate Cake",
+    "category": "cake",
+    "price": 850,
+    "image": "/images/cake7.jpg",
+    "description": "Moist chocolate cake topped with cherries and chocolate cream.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 16,
+    "name": "Rainbow Birthday Cake",
+    "category": "cake",
+    "price": 1000,
+    "image": "/images/cake8.jpg",
+    "description": "Colourful layered cake decorated for joyful birthday celebrations.",
+    "weight": "1 kg",
+    "eggless": true
+  },
+  {
+    "id": 17,
+    "name": "Croissant",
+    "category": "pastry",
+    "price": 85,
+    "image": "/images/pas1.png",
+    "description": "Classic butter-laminated dough with a crisp exterior and soft honeycomb centre.",
+    "tag": "Flaky",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 18,
+    "name": "Chocolate Éclair",
+    "category": "pastry",
+    "price": 90,
+    "image": "/images/pas2.png",
+    "description": "Delicate choux pastry filled with vanilla cream and topped with chocolate.",
+    "tag": "Choux",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 19,
+    "name": "Strawberry Tart",
+    "category": "pastry",
+    "price": 100,
+    "image": "/images/pas3.png",
+    "description": "Sweet pastry crust filled with cream and topped with fresh strawberries.",
+    "tag": "Seasonal",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 20,
+    "name": "Cream Puff",
+    "category": "pastry",
+    "price": 100,
+    "image": "/images/pas4.png",
+    "description": "Light choux pastry filled with freshly whipped cream.",
+    "tag": "Choux",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 21,
+    "name": "Baklava",
+    "category": "pastry",
+    "price": 100,
+    "image": "/images/pas5.png",
+    "description": "Mediterranean pastry with crushed pistachios, walnuts, and orange blossom honey.",
+    "tag": "Phyllo",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 22,
+    "name": "Apple Turnover",
+    "category": "pastry",
+    "price": 100,
+    "image": "/images/pas6.png",
+    "description": "Caramelised Granny Smith apples wrapped in a buttery puff pastry.",
+    "tag": "Puff",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 23,
+    "name": "Cheese Danish",
+    "category": "pastry",
+    "price": 100,
+    "image": "/images/pas7.png",
+    "description": "Tender Danish pastry filled with sweet cream cheese and a hint of lemon zest.",
+    "tag": "Flaky",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 24,
+    "name": "Donut Pastry",
+    "category": "pastry",
+    "price": 100,
+    "image": "/images/pas8.png",
+    "description": "Brioche-style dough, slow-fried and glazed with signature wild honey and vanilla.",
+    "tag": "Yeasted",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 25,
+    "name": "Mille-Feuille",
+    "category": "pastry",
+    "price": 120,
+    "image": "/images/pas9.png",
+    "description": "A thousand layers of caramelised puff pastry with rich crème mousseline.",
+    "tag": "Puff",
+    "weight": "1 piece",
+    "eggless": true
+  },
+  {
+    "id": 26,
+    "name": "Banana Pastry Slice",
+    "category": "pastry",
+    "price": 120,
+    "image": "/images/pas10.png",
+    "description": "Moist banana sponge topped with caramelised fruit and toasted hazelnut praline.",
+    "tag": "Sweet Slices",
+    "weight": "1 slice",
+    "eggless": true
+  }
+]
