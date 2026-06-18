@@ -253,7 +253,7 @@ function Pastries() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4" data-aos="flip-left">
             <img
               src="/images/birth1.jpg"
               alt="Freshly baked pastry"

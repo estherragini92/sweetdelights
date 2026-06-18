@@ -75,13 +75,17 @@ function About() {
             </Link>
           </div>
 
-          
+          <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+
             <img
               src="/images/about2.png"
               alt="Decorated celebration cake"
               className="h-[440px] w-full rounded-tl-[60px] object-cover max-sm:h-[300px]"
             />
 
+            </div>
             
         </div>
       </section>

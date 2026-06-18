@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -17,6 +20,14 @@ import MyOrders from "./pages/MyOrders";
 import TrackOrder from "./pages/TrackOrder";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: "ease-in-out",
+    });
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -31,11 +42,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
-          <Route path="/order-success" element={<OrderSuccess />} />
           <Route path="/my-orders" element={<MyOrders />} />
           <Route path="/track-order" element={<TrackOrder />} />
-
-          
 
           <Route
             path="/order-success"

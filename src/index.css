@@ -53,3 +53,16 @@ a {
 .font-dm {
   font-family: "DM Sans", sans-serif;
 }
+@keyframes gentleBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-12px) scale(1.03);
+  }
+}
+
+.hero-animation {
+  animation: gentleBounce 5s ease-in-out infinite;
+}

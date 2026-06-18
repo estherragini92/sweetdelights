@@ -90,11 +90,12 @@ function Home() {
 
           <div className="overflow-hidden">
             <img
+               
               src="/images/chocotruffle.jpg"
               alt="Premium celebration cake"
-              className="h-[560px] w-full object-cover max-md:h-[430px] max-sm:h-[320px]"
+              className="hero-animation h-[560px] w-full object-cover max-md:h-[430px] max-sm:h-[320px]"
             />
-          </div>
+            </div>
         </div>
       </section>
 
@@ -107,9 +108,10 @@ function Home() {
 
           <div className="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
             {cakes.map((product) => (
-              <article
+              <article data-aos="zoom-in"
                 key={product.id}
                 className="overflow-hidden rounded-[8px] bg-white"
+                
               >
                 <img
                   src={product.image}
@@ -153,7 +155,12 @@ function Home() {
 
           <div className="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
             {pastries.map((product) => (
-              <article key={product.id} className="overflow-hidden bg-white">
+                    <article 
+                      key={product.id}
+                      className="group overflow-hidden rounded-xl bg-white shadow-lg
+                      transition-all duration-700 hover:-translate-y-4 hover:shadow-2xl"
+                      data-aos="flip-left"
+                    >
                 <img
                   src={product.image}
                   alt={product.name}
@@ -180,7 +187,8 @@ function Home() {
           <div className="mt-16 grid gap-12 md:grid-cols-3">
             {behindScenes.map((item) => (
               <div key={item.title}>
-                <div className="mx-auto h-[215px] w-[215px] overflow-hidden rounded-full border-[5px] border-white">
+                <div className="mx-auto h-[215px] w-[215px] overflow-hidden rounded-full border-[5px]
+                border-white shadow-xl transition-all duration-700 hover:-translate-y-5">
                   <img
                     src={item.image}
                     alt={item.title}

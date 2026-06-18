@@ -194,13 +194,6 @@ function MyOrders() {
                         Cancel Order
                       </button>
 
-                      <button
-                        type="button"
-                        onClick={() => markDelivered(order.id)}
-                        className="inline-flex items-center gap-2 rounded-lg border border-green-200 px-5 py-2.5 text-sm font-bold text-green-700 transition hover:bg-green-50"
-                      >
-                        Mark Delivered
-                      </button>
                     </>
                   )}
               </div>

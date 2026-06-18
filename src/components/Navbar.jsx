@@ -159,7 +159,7 @@ function Navbar() {
                 )}
               </span>
 
-              <span>ADD CART</span>
+              <span>CART</span>
             </NavLink>
           </div>
         </div>
