@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Route, Routes } from "react-router-dom";
-
+import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <>
+     <ScrollToTop />
       <Navbar />
 
       <main>
